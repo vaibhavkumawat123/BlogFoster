@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="home container" id="home">
           <section className="flex">
             <div className="contnet">
-              <h3>
+              <h3 className="blog">
                 <span>Create </span> a blog
               </h3>
               <p>

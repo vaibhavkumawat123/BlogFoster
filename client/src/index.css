@@ -684,7 +684,7 @@ textarea {
 
 .hero {
   /* background-color: var(); */
-    min-height: 52vh;
+    min-height: 37vh;
   display: flex;
   align-items: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -735,6 +735,9 @@ textarea {
   color: #a64d79;
   text-transform: uppercase;
   line-height: 1.2;
+}
+
+.blog{
   font-weight: 800;
 }
 
