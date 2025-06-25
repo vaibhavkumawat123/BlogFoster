@@ -1,0 +1,19 @@
+# Ignore environment variables
+.env
+
+# Node modules (dependencies)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp

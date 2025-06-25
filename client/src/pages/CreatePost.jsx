@@ -4,6 +4,7 @@ import 'react-quill/dist/quill.snow.css';
 import { UserContext } from '../context/useContext';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import '../index.css'
 
 const CreatePost = () => {
 
