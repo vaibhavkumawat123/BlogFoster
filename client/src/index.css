@@ -735,6 +735,7 @@ textarea {
   color: #a64d79;
   text-transform: uppercase;
   line-height: 1.2;
+  font-weight: 800;
 }
 
 .home .flex .contnet h3 span {
