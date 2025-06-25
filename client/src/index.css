@@ -687,7 +687,7 @@ textarea {
     min-height: 37vh;
   display: flex;
   align-items: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
 }
 
@@ -735,6 +735,7 @@ textarea {
   color: #a64d79;
   text-transform: uppercase;
   line-height: 1.2;
+  font-weight: 800;
 }
 
 .home .flex .contnet h3 span {
