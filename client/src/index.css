@@ -687,7 +687,7 @@ textarea {
     min-height: 37vh;
   display: flex;
   align-items: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
 }
 
@@ -738,7 +738,7 @@ textarea {
 }
 
 .home .flex .contnet h3 span {
-  
+
   color: var(--color-gray-900);
   /* text-transform: uppercase; */
 }
