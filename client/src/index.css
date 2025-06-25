@@ -684,7 +684,7 @@ textarea {
 
 .hero {
   /* background-color: var(); */
-    min-height: 60vh;
+    min-height: 52vh;
   display: flex;
   align-items: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
