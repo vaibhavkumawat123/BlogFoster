@@ -30,7 +30,7 @@ const Dashboard = () => {
       setIsLoading(true);
 
       try {
-        const response = await axios.get(`http://localhost:5000/api/posts/users/${id}`,{ withCredentials: true, headers: { Authorization: `Bearer ${token}` } })
+        const response = await axios.get(`${import.meta.env.VITE_API_URL}/api/posts/users/${id}`,{ withCredentials: true, headers: { Authorization: `Bearer ${token}` } })
 
         setPosts(response.data)
       } catch (error) {
@@ -61,7 +61,7 @@ const Dashboard = () => {
                 return <article key={post.id} className="dashboard_post">
                   <div className="dashboard_post-info">
                   <div className="dashborad_post-thumbnail">
-                  <img src={`http://localhost:5000/uploads/${post.thumbnail}`} alt="" />
+                  <img src={`${import.meta.env.VITE_API_URL}/uploads/${post.thumbnail}`} alt="" />
                   </div>
                   <h5>{post.title}</h5>
                   </div>
