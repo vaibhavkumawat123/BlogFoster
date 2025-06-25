@@ -737,11 +737,8 @@ textarea {
   line-height: 1.2;
 }
 
-.blog{
-  font-weight: 800;
-}
-
 .home .flex .contnet h3 span {
+  
   color: var(--color-gray-900);
   /* text-transform: uppercase; */
 }
