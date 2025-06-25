@@ -684,7 +684,7 @@ textarea {
 
 .hero {
   /* background-color: var(); */
-    min-height: 37vh;
+    min-height: 25vh;
   display: flex;
   align-items: center;
   font-weight: 500;
