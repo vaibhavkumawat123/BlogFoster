@@ -266,6 +266,7 @@ nav {
 .nav_container {
   display: flex;
   justify-content: space-between;
+  font-weight: 600;
   align-items: center;
   padding: 1rem 2rem;
   position: relative;
