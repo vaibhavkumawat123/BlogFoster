@@ -119,15 +119,19 @@ h5 {
 .hero-text button {
 }
 
-.btn-explore{
-  background: #6a1e55;
+.btn-explore {
+ background: #6a1e55;
   color: #ffffff;
-  padding: 2.1%;
+  padding: 0.75rem 1.5rem;
   border-radius: 45px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+  width: fit-content;
 }
 
-.btn-explore:hover{
-  transform: scale(34);
+.btn-explore:hover {
+  transform: scale(1.05);
 }
 /* <!-- HTML !--> */
 /* <button class="button-40" role="button">Button 40</button> */
@@ -465,7 +469,6 @@ footer {
   font-size: 1rem;
 }
 
-
 input,
 select,
 textarea {
@@ -688,17 +691,24 @@ textarea {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 .home .flex {
   display: flex;
   align-items: center;
+    justify-content: space-between;
   gap: 2rem;
   /* min-height: 100vh; */
   flex-wrap: wrap-reverse;
 }
 .home .image {
   flex: 1;
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
 }
 
 .home .image path {
@@ -710,21 +720,23 @@ textarea {
 }
 
 .home .flex .contnet h3 {
-  font-size: 5.5rem;
+ font-size: 4rem;
   color: #a64d79;
   text-transform: uppercase;
+  line-height: 1.2;
 }
 
 .home .flex .contnet h3 span {
   color: var(--color-gray-900);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .home .flex .contnet p {
-  font-size: 1.6rem;
+ font-size: 1.2rem;
   color: var(--color-gray-700);
-  padding: 1rem 0;
-  line-height: 1.8;
+  padding: 0.5rem 0;
+  line-height: 1.6;
+  max-width: 600px;
 }
 
 .heading {
@@ -763,7 +775,15 @@ textarea {
   }
 
   .home .flex .contnet h3 {
-    font-size: 3.5rem;
+    font-size: 3rem;
+  }
+
+  .home .flex .contnet p {
+    font-size: 1.1rem;
+  }
+
+  .home .image img {
+    max-height: 320px;
   }
 
   .heading {
@@ -791,26 +811,26 @@ textarea {
 
   .nav_menu.show_menu {
     display: flex;
-   width: 96%;
-   /* justify-content: center; */
-   font-weight: bold;
-   font-size: medium;
-   
-  /* height: 5rem; */
-  /* position: fixed; */
-  z-index: 99;
-  border-radius: 0 0 1rem 1rem;
-  display: grid;
-  place-items: center;
+    width: 96%;
+    /* justify-content: center; */
+    font-weight: bold;
+    font-size: medium;
 
-background: white;
-  background-opacity: 0; 
+    /* height: 5rem; */
+    /* position: fixed; */
+    z-index: 99;
+    border-radius: 0 0 1rem 1rem;
+    display: grid;
+    place-items: center;
 
-  border-bottom: 4px solid rgba(255, 255, 255, 0.2); 
-  backdrop-filter: blur(670px); 
-  -webkit-backdrop-filter: blur(670px); 
+    background: white;
+    background-opacity: 0;
 
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(670px);
+    -webkit-backdrop-filter: blur(670px);
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
   .nav_toggle-btn {
@@ -847,13 +867,31 @@ background: white;
   .form.create-post_form {
     gap: 1rem;
   }
-  
+
   .home .flex {
     flex-direction: column;
+        text-align: center;
+
   }
 
   .home .flex .contnet h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+
+  .home .flex .contnet p {
+    font-size: 1rem;
+    margin-inline: auto;
+  }
+
+  .home .image img {
+    max-height: 250px;
+  }
+
+  .btn-explore {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+    margin-inline: auto;
   }
 
   .heading {
