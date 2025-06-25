@@ -684,6 +684,10 @@ textarea {
 
 .hero {
   /* background-color: var(); */
+    min-height: 60vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .home {
@@ -726,7 +730,7 @@ textarea {
 }
 
 .home .flex .contnet h3 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #a64d79;
   text-transform: uppercase;
   line-height: 1.2;
