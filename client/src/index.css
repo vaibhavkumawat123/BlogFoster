@@ -688,6 +688,7 @@ textarea {
   display: flex;
   align-items: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
 }
 
 .home {
