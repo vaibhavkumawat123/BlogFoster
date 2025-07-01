@@ -10,7 +10,6 @@ const userRoutes = require('./routes/userRoutes')
 const postRoutes = require('./routes/postRoutes')
 const {notFound , errorHandler} = require('./middleware/errorMiddleware');
 
-
 app.use(express.json({extended: true}));
 app.use(express.urlencoded({extended: true}));
 app.use(cors({credentials: true, origin: process.env.FRONTEND_URL}));
